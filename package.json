@@ -1,0 +1,40 @@
+{
+  "name": "@socialgouv/clone-moi-sur-github",
+  "description": "Un bandeau React clone-moi-sur-github",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "Apache-2.0",
+  "files": [
+    "README.md",
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@socialgouv/eslint-config-react": "^0.9.1",
+    "babel-jest": "^24.8.0",
+    "eslint-plugin-jest": "^22.19.0",
+    "gh-pages": "^2.0.1",
+    "jest": "^24.8.0",
+    "parcel-bundler": "^1.10",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "^16.8.6"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -rf ./dist",
+    "clean:demo": "rm -rf ./example/dist",
+    "start": "parcel watch ./src/index.js --out-dir ./dist",
+    "start:demo": "parcel ./example/src/index.html --out-dir ./example/dist",
+    "build": "parcel build ./src/index.js --global minimum-parcel-lib",
+    "build:demo": "parcel build ./example/src/index.html --out-dir ./example/dist --public-url ./",
+    "deploy": "gh-pages -d ./example/dist -r https://gitlab-ci-token:$GH_TOKEN@github.com/SocialGouv/clone-moi-sur-github.git"
+  }
+}

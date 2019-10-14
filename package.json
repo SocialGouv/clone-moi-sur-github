@@ -27,6 +27,11 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.css$": "<rootDir>/empty.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "clean": "rm -rf ./dist",

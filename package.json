@@ -9,18 +9,18 @@
     "dist"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/preset-react": "^7.0.0",
-    "@socialgouv/eslint-config-react": "^0.9.1",
-    "babel-jest": "^24.8.0",
-    "eslint-plugin-jest": "^22.19.0",
-    "gh-pages": "^2.0.1",
-    "jest": "^24.8.0",
-    "parcel-bundler": "^1.10",
-    "prettier": "^1.18.2",
-    "react-test-renderer": "^16.8.6"
+    "@babel/cli": "7.6.4",
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
+    "@babel/preset-react": "7.6.3",
+    "@socialgouv/eslint-config-react": "0.9.8",
+    "babel-jest": "24.9.0",
+    "eslint-plugin-jest": "22.19.0",
+    "gh-pages": "2.1.1",
+    "jest": "24.9.0",
+    "parcel-bundler": "1.12.4",
+    "prettier": "1.18.2",
+    "react-test-renderer": "16.10.2"
   },
   "dependencies": {
     "prop-types": "^15.7.2",

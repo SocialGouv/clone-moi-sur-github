@@ -15,7 +15,7 @@
     "@babel/preset-react": "^7.9.4",
     "@socialgouv/eslint-config-react": "^0.20.0",
     "babel-jest": "^25.5.1",
-    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jest": "^23.9.0",
     "gh-pages": "^2.2.0",
     "jest": "^25.5.4",
     "parcel-bundler": "^1.12",

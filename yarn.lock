@@ -1203,25 +1203,25 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/eslint-config-react@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.13.0.tgz#ce752ba51cce0f92b5c4a0883e00492a39c4072e"
-  integrity sha512-Npw3bX0J/9Dzj5cIm3mLxk52wmORWNPjCbGJknm5EX9TNgehP0xEATfQndq/Hnj9ehFUf2P2+9Wvgs0V+ARDcg==
+"@socialgouv/eslint-config-react@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.14.0.tgz#12e165f3b0ad8179243ed18cb0ca1f39153b4b3e"
+  integrity sha512-Rh2k5FkNLpnJceRBtTEVLQVMVGCSxv2nbzHz5gEb8mD/i2esdPBtnf7QDjrgpEybBBLTKP57el6YHD585KtpYA==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^1.13.0"
+    "@socialgouv/eslint-config-recommended" "^1.14.0"
     babel-eslint "^10.1.0"
     eslint-plugin-jsx-a11y "~6.3.1"
     eslint-plugin-react "~7.20.3"
     eslint-plugin-react-hooks "~4.0.8"
 
-"@socialgouv/eslint-config-recommended@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.13.0.tgz#d435331f0d05e0d82745fa81bc54715c57e3e4c2"
-  integrity sha512-u02FA+GgAZMb2IO1jqARHeIxTz3Ak24hVf8pMeesqiDfDQEe55VyAka4rzM5d7SvR4NeJUnIcqiknT1JupE+Mg==
+"@socialgouv/eslint-config-recommended@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.14.0.tgz#4329df25c43cd4e0438ada25c3200f2f210535fe"
+  integrity sha512-HzHRGL4gDQFDVFXpwxZc63wOy2n0UCmtjaUeVi/WXoP3I4EtRh8lR3SqkjRSSNvBzIdIk3UcyywKm4hIUwEL4g==
   dependencies:
     eslint-config-prettier "~6.11.0"
     eslint-plugin-import "~2.22.0"
-    eslint-plugin-jest "~23.18.0"
+    eslint-plugin-jest "~23.18.1"
     eslint-plugin-prettier "~3.1.4"
     eslint-plugin-simple-import-sort "~5.0.3"
     eslint-plugin-sort-keys-fix "~1.1.1"
@@ -3027,10 +3027,10 @@ eslint-plugin-import@~2.22.0:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^23.18.1, eslint-plugin-jest@~23.18.0:
-  version "23.18.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.18.1.tgz#284e44f480cc82c0ccfaf5a0cb2d2fe34ec2497d"
-  integrity sha512-1FDnKJxWm+XnVp36wyTUK6SLADtqMLIH4UbX96mPHE5b1dGoA5LfIGdhHyN+TiZ6U7o89JVEJsaiDJJIKI4p+g==
+eslint-plugin-jest@^23.18.1, eslint-plugin-jest@~23.18.1:
+  version "23.18.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-23.18.2.tgz#9cebb2c93729ccabc1d01cf45c59e9ee6afec80d"
+  integrity sha512-afVOE47F0PENnRlnePUHgrDbv1tsDlTAVrjL051oUETB2ImzBwa5GfmUAUhDjAEuxH+xkE6DsmEpZ8obXzUMqQ==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 

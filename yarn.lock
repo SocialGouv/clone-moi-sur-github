@@ -1243,21 +1243,21 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/eslint-config-react@^1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.23.0.tgz#da59f52c85b30de1fc0222ffaad6d3839146ef7c"
-  integrity sha512-h3I3hvpuMKOEq5tGXQBCt3UnJpVk2Y0t+ulTb4SJu+ZmzbCnFmY6WaeE4EqOh1h3E0owqJglVOT68bzkfd8mDg==
+"@socialgouv/eslint-config-react@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.24.0.tgz#66fb54766b1ef043bcd746bdece8244cec3307b1"
+  integrity sha512-xDXYfcCD1kVAu4wNm8GIEK58erb2b3BnB5axaQ6j7OgVi7I5NWi34yuhCAc42+ItYbMyV8/DWIKIkwxaHJ/GVw==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^1.23.0"
+    "@socialgouv/eslint-config-recommended" "^1.24.0"
     babel-eslint "^10.1.0"
     eslint-plugin-jsx-a11y "~6.3.1"
-    eslint-plugin-react "~7.20.5"
+    eslint-plugin-react "~7.20.6"
     eslint-plugin-react-hooks "~4.0.8"
 
-"@socialgouv/eslint-config-recommended@^1.23.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.23.0.tgz#382a9efe013cfa8a3a470b6e40f2781d9506000c"
-  integrity sha512-8Sdj5yy/ogQ8dC8enbaFXJjHzoE1se6qiafjvS1JTvMCqNWzU4M93nyRWEFIJGvJS5n/Hl/PpSAAVMJspdrzhQ==
+"@socialgouv/eslint-config-recommended@^1.24.0":
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.24.0.tgz#12a38184ca24ffc89a20e013ff65e36d6778ac3e"
+  integrity sha512-AoItigV2rNjw7FY3mN7H6vGDX765nDQrSLWDwtg2ewjv8A2loAtvZA55fmEsu96JuMsi6HZwB3DLow8q9NG7VA==
   dependencies:
     eslint-config-prettier "~6.11.0"
     eslint-plugin-import "~2.22.0"
@@ -3092,10 +3092,10 @@ eslint-plugin-react-hooks@~4.0.8:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.0.8.tgz#a9b1e3d57475ccd18276882eff3d6cba00da7a56"
   integrity sha512-6SSb5AiMCPd8FDJrzah+Z4F44P2CdOaK026cXFV+o/xSRzfOiV1FNFeLl2z6xm3yqWOQEZ5OfVgiec90qV2xrQ==
 
-eslint-plugin-react@~7.20.5:
-  version "7.20.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.20.5.tgz#29480f3071f64a04b2c3d99d9b460ce0f76fb857"
-  integrity sha512-ajbJfHuFnpVNJjhyrfq+pH1C0gLc2y94OiCbAXT5O0J0YCKaFEHDV8+3+mDOr+w8WguRX+vSs1bM2BDG0VLvCw==
+eslint-plugin-react@~7.20.6:
+  version "7.20.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.20.6.tgz#4d7845311a93c463493ccfa0a19c9c5d0fd69f60"
+  integrity sha512-kidMTE5HAEBSLu23CUDvj8dc3LdBU0ri1scwHBZjI41oDv4tjsWZKU7MQccFzH1QYPYhsnTF2ovh7JlcIcmxgg==
   dependencies:
     array-includes "^3.1.1"
     array.prototype.flatmap "^1.2.3"

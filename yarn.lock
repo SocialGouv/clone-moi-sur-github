@@ -1262,24 +1262,24 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/eslint-config-react@^1.35.0":
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.35.0.tgz#2bb1c44509e1500a1e5c7edaccc5eb21dffb4595"
-  integrity sha512-ug1sXJ46jZIGVxFlY/zCnUTGAjbeNTmYK4EEDKAV1ny8n9fkdo5+Gwk7HNeUzgpAA1rMh1hhK1iCt3Yz5IIMhw==
+"@socialgouv/eslint-config-react@^1.36.0":
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.36.0.tgz#6ed37f4eab866e4efd5b84c20e50698d481cdddf"
+  integrity sha512-jE01j4pMcQjLD+9F/Cp1zAjkeWvCo/KGSJ0DU8TXqUicYa82RZx853cAoBmNT9rXKEV735t/mxYZNnLJwZ/Dag==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^1.35.0"
+    "@socialgouv/eslint-config-recommended" "^1.36.0"
     babel-eslint "^10.1.0"
     eslint-plugin-jsx-a11y "~6.3.1"
     eslint-plugin-react "~7.21.2"
     eslint-plugin-react-hooks "~4.1.2"
 
-"@socialgouv/eslint-config-recommended@^1.35.0":
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.35.0.tgz#bf434bffccbe7798a4b39c5c09e5b690c0690081"
-  integrity sha512-BZoI/SJXbvfu5voN37MSGJvdnOJfom+t0GSSX/9OBAXPyO2jzv9FFL/+0wdtk7Vya/7CZMLepelUs6pqCXY32g==
+"@socialgouv/eslint-config-recommended@^1.36.0":
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.36.0.tgz#635fa98e38aeb37534a8f0b130703cbd20ca904b"
+  integrity sha512-df0X2DApR8U/LcBCkDl0MTBWPZqrKdwbrE3lph88gJlQZa+JwTYhGn/q+UmcirMs2Mr7apROHW4Ny8TsI2blJA==
   dependencies:
     eslint-config-prettier "~6.12.0"
-    eslint-plugin-import "~2.22.0"
+    eslint-plugin-import "~2.22.1"
     eslint-plugin-jest "~24.0.2"
     eslint-plugin-prettier "~3.1.4"
     eslint-plugin-simple-import-sort "~5.0.3"
@@ -3111,7 +3111,7 @@ eslint-module-utils@^2.6.0:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@~2.22.0:
+eslint-plugin-import@~2.22.1:
   version "2.22.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz#0896c7e6a0cf44109a2d97b95903c2bb689d7702"
   integrity sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==

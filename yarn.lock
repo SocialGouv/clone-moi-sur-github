@@ -1262,25 +1262,25 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/eslint-config-react@^1.37.0":
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.37.0.tgz#1bda375d753bf754c7ddd7865a3ac48ba67e1984"
-  integrity sha512-oamGWTd41H+dNksomHj4sZFmjE8G8A7DIblMOkzI99D4ZB+mvJZn6Vcn86wAOEO5MI6w8LjnO4y8KqQOmDqf2g==
+"@socialgouv/eslint-config-react@^1.38.0":
+  version "1.38.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.38.0.tgz#eec30eaff578c53247540b80b8aef9fbd9286a65"
+  integrity sha512-LRfMZxf6IOe0fc0KKgIw9oT+TRUmGWzoSGdKYSvRzifrGX+CSKA7uJnQZ4j92e8ehapi5j/pFM386oJwMLtxeQ==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^1.37.0"
+    "@socialgouv/eslint-config-recommended" "^1.38.0"
     babel-eslint "^10.1.0"
     eslint-plugin-jsx-a11y "~6.3.1"
     eslint-plugin-react "~7.21.3"
     eslint-plugin-react-hooks "~4.1.2"
 
-"@socialgouv/eslint-config-recommended@^1.37.0":
-  version "1.37.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.37.0.tgz#b97d23acc8dfef4c14a4bdcdd7c0cd7e641ed62e"
-  integrity sha512-v35fapAuuzF1m4wavKNKTYP0k7dBV3ng1034lYLYpzVXwGPGeaeDvxU9/4/dkAjP7biRm4dut2Q9z0gzB3f4VA==
+"@socialgouv/eslint-config-recommended@^1.38.0":
+  version "1.38.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.38.0.tgz#429bb1ac7dab7f77bc5a81052f346a733cfc345e"
+  integrity sha512-GEEsBFaPFTdfXKel/Y7V5X6JwhhwhUGajWW22RCo2HDA/kYBL9OPnJ5HjGUY7Pu8TAsY3i7+uasJ3+xydjAvfA==
   dependencies:
     eslint-config-prettier "~6.12.0"
     eslint-plugin-import "~2.22.1"
-    eslint-plugin-jest "~24.0.2"
+    eslint-plugin-jest "~24.1.0"
     eslint-plugin-prettier "~3.1.4"
     eslint-plugin-simple-import-sort "~5.0.3"
     eslint-plugin-sort-keys-fix "~1.1.1"
@@ -3130,17 +3130,10 @@ eslint-plugin-import@~2.22.1:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^24.1.0:
+eslint-plugin-jest@^24.1.0, eslint-plugin-jest@~24.1.0:
   version "24.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.1.0.tgz#6708037d7602e5288ce877fd0103f329dc978361"
   integrity sha512-827YJ+E8B9PvXu/0eiVSNFfxxndbKv+qE/3GSMhdorCaeaOehtqHGX2YDW9B85TEOre9n/zscledkFW/KbnyGg==
-  dependencies:
-    "@typescript-eslint/experimental-utils" "^4.0.1"
-
-eslint-plugin-jest@~24.0.2:
-  version "24.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-24.0.2.tgz#4bf0fcdc86289d702a7dacb430b4363482af773b"
-  integrity sha512-DSBLNpkKDOpUJQkTGSs5sVJWsu0nDyQ2rYxkr0Eh7nrkc5bMUr/dlDbtTj3l8y6UaCVsem6rryF1OZrKnz1S5g==
   dependencies:
     "@typescript-eslint/experimental-utils" "^4.0.1"
 

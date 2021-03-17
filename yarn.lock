@@ -1240,21 +1240,21 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/eslint-config-react@^1.59.0":
-  version "1.59.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.59.0.tgz#c50f3fdb226770fc0c8fb3de74f206be3bf2ae7d"
-  integrity sha512-QjBcd00iN3Xkv70/WMYNIqVBax+8Yk2A0pz6I7FkUNj6XPP7kwFzKODb2RHsWZNr32Ex0MW2gQQmIba5TEJO+g==
+"@socialgouv/eslint-config-react@^1.60.0":
+  version "1.60.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.60.0.tgz#77d88a009cb85c88d3037a79ec3dac08fd5fb77f"
+  integrity sha512-mCXNamHCP8MIaAbRQpSbwWAAMzqxiKaoxgc+UlkKX1WpLCKXAV3llEWkkqMy+AVRnrrzIrV6GApP9B1q6bPxBg==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^1.59.0"
+    "@socialgouv/eslint-config-recommended" "^1.60.0"
     babel-eslint "^10.1.0"
     eslint-plugin-jsx-a11y "~6.4.1"
     eslint-plugin-react "~7.22.0"
     eslint-plugin-react-hooks "~4.2.0"
 
-"@socialgouv/eslint-config-recommended@^1.59.0":
-  version "1.59.0"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.59.0.tgz#38e84c87053de6d8036b016e26d0644587378291"
-  integrity sha512-ssmS673bYD5gjSkFc6xjhITZBgJqjZfv+oowqhgu1JLaYfV0y6xWR2ScyCAEfxoM5xJaDL3mEMLYBYbN7H+tsQ==
+"@socialgouv/eslint-config-recommended@^1.60.0":
+  version "1.60.0"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.60.0.tgz#ab6ac73a60239eafc689fab95afc4375b1531908"
+  integrity sha512-1Vl8hvtYirtf+FV0JRTq0IOQSWiEJHFz+TRPAGzA+7/wce7dqfqKDmUiLBHG6B3KEEuD/PuaZBXxDKZjN9fUZw==
   dependencies:
     eslint-config-prettier "~8.1.0"
     eslint-plugin-import "~2.22.1"

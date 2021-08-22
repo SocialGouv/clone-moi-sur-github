@@ -13,7 +13,7 @@
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
-    "@socialgouv/eslint-config-react": "^1.85.0",
+    "@socialgouv/eslint-config-react": "^1.85.1",
     "babel-jest": "^27.0.6",
     "eslint-plugin-jest": "^24.4.0",
     "gh-pages": "^3.2.3",

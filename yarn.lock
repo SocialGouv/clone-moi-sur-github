@@ -1281,24 +1281,24 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@socialgouv/eslint-config-react@^1.85.3":
-  version "1.85.3"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.85.3.tgz#8ebe55f05892437fc8a23e3997c0acf37a6f426f"
-  integrity sha512-ccMwtywLMo9kUT4vdrZcEIF5hxL82zCEfcgXMkN3IiYLU64e7uoxY7ThtNk1SkIqAVk8xTFDUVbgdgQ7B7kEOA==
+"@socialgouv/eslint-config-react@^1.85.4":
+  version "1.85.4"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-react/-/eslint-config-react-1.85.4.tgz#b1424f074725e19d68cf034d45ca8adb7aaea6c6"
+  integrity sha512-l5mdCLf1cZrtuY2tn3t3qZ1okIcgdIX3wkXmu64JCjLF23i71YSqqqkvwduBrKQNlxpEK2o3Ou/sq+7c/4AywA==
   dependencies:
-    "@socialgouv/eslint-config-recommended" "^1.85.3"
+    "@socialgouv/eslint-config-recommended" "^1.85.4"
     babel-eslint "^10.1.0"
     eslint-plugin-jsx-a11y "~6.4.1"
     eslint-plugin-react "~7.24.0"
     eslint-plugin-react-hooks "~4.2.0"
 
-"@socialgouv/eslint-config-recommended@^1.85.3":
-  version "1.85.3"
-  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.85.3.tgz#85fabed0434d90f9c95ac76539541efe13f4e52f"
-  integrity sha512-YWegWmEUOnkighqmnRNr428EQcCPu3nIO4n1Jy7N7d2w7LQCuF42f3Mt2bze61fFiwEmsZYRt7Uz9y4Z48i2sQ==
+"@socialgouv/eslint-config-recommended@^1.85.4":
+  version "1.85.4"
+  resolved "https://registry.yarnpkg.com/@socialgouv/eslint-config-recommended/-/eslint-config-recommended-1.85.4.tgz#58d5f512e2b6f59d1708ead4ba118cee8e51b18d"
+  integrity sha512-PNp85Za3KsBgIHJx+SQ3ZFUYd/DQK8FRylgjPmCzbV5yPdmAjSRcJkpgLPmTnZYOxvoUSHI+qrU3LEixP+8lKA==
   dependencies:
     eslint-config-prettier "~8.3.0"
-    eslint-plugin-import "~2.24.1"
+    eslint-plugin-import "~2.24.2"
     eslint-plugin-jest "~24.4.0"
     eslint-plugin-prettier "~3.4.1"
     eslint-plugin-simple-import-sort "~7.0.0"
@@ -1372,6 +1372,11 @@
   version "7.0.8"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.8.tgz#edf1bf1dbf4e04413ca8e5b17b3b7d7d54b59818"
   integrity sha512-YSBPTLTVm2e2OoQIDYx8HaeWJ5tTToLH67kXR7zYNGupXMEHa2++G8k+DczX2cFVgalypqtyZIcU19AFcmOpmg==
+
+"@types/json5@^0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
+  integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
 
 "@types/node@*":
   version "16.4.9"
@@ -3211,10 +3216,10 @@ eslint-module-utils@^2.6.2:
     debug "^3.2.7"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@~2.24.1:
-  version "2.24.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.24.1.tgz#64aba8b567a1ba9921d5465586e86c491b8e2135"
-  integrity sha512-KSFWhNxPH8OGJwpRJJs+Z7I0a13E2iFQZJIvSnCu6KUs4qmgAm3xN9GYBCSoiGWmwA7gERZPXqYQjcoCROnYhQ==
+eslint-plugin-import@~2.24.2:
+  version "2.24.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.24.2.tgz#2c8cd2e341f3885918ee27d18479910ade7bb4da"
+  integrity sha512-hNVtyhiEtZmpsabL4neEj+6M5DCLgpYyG9nzJY8lZQeQXEn5UPW1DpUdsMHMXsq98dbNm7nt1w9ZMSVpfJdi8Q==
   dependencies:
     array-includes "^3.1.3"
     array.prototype.flat "^1.2.4"
@@ -3230,7 +3235,7 @@ eslint-plugin-import@~2.24.1:
     pkg-up "^2.0.0"
     read-pkg-up "^3.0.0"
     resolve "^1.20.0"
-    tsconfig-paths "^3.10.1"
+    tsconfig-paths "^3.11.0"
 
 eslint-plugin-jest@^24.4.0, eslint-plugin-jest@~24.4.0:
   version "24.4.0"
@@ -5019,7 +5024,7 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-json5@^2.1.2, json5@^2.2.0:
+json5@^2.1.2:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.0.tgz#2dfefe720c6ba525d9ebd909950f0515316c89a3"
   integrity sha512-f+8cldu7X/y7RAJurMEJmdoKXGB/X550w2Nr3tTbezL6RwEE/iMcm+tZnXeoZtKuOq6ft8+CqzEkrIgx1fPoQA==
@@ -7584,12 +7589,13 @@ trim-repeated@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-tsconfig-paths@^3.10.1:
-  version "3.10.1"
-  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.10.1.tgz#79ae67a68c15289fdf5c51cb74f397522d795ed7"
-  integrity sha512-rETidPDgCpltxF7MjBZlAFPUHv5aHH2MymyPvh+vEyWAED4Eb/WeMbsnD/JDr4OKPOA1TssDHgIcpTN5Kh0p6Q==
+tsconfig-paths@^3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.11.0.tgz#954c1fe973da6339c78e06b03ce2e48810b65f36"
+  integrity sha512-7ecdYDnIdmv639mmDwslG6KQg1Z9STTz1j7Gcz0xa+nshh/gKDAHcPxRbWOsA3SPp0tXP2leTcY9Kw+NAkfZzA==
   dependencies:
-    json5 "^2.2.0"
+    "@types/json5" "^0.0.29"
+    json5 "^1.0.1"
     minimist "^1.2.0"
     strip-bom "^3.0.0"
 

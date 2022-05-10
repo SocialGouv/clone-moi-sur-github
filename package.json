@@ -16,7 +16,7 @@
     "@socialgouv/eslint-config-react": "^1.100.0",
     "babel-jest": "^28.0.0",
     "eslint-plugin-jest": "^26.0.0",
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^4.0.0",
     "jest": "^28.0.0",
     "parcel-bundler": "^1.12",
     "prettier": "^2.5.1",
